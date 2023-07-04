@@ -1,0 +1,216 @@
+/* style.css */
+
+/* Reset default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #334f70;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5%;
+  margin-left: 80px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #fffdd0;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Welcome section */
+.welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #6593d8), url(schbuilding.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.welcome h4 {
+  text-align: center;
+  color: #fffdd0;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+/* Home section */
+.home {
+  background-color: #d7e5f2;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* About section */
+.about {
+  background-color: #fffdd0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.about_text {
+  width: 60%;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about_image {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+/* Academics section */
+.academics {
+  background-color: #d7e5f2;
+}
+
+.academics h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.academics p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Admissions section */
+.admissions {
+  background-color: #fffdd0;
+  padding: 50px;
+  text-align: center;
+}
+
+.admissions h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.admissions p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.admissions button {
+  background-color: #d7e5f2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.admissions button:hover {
+  background-color: #fffdd0;
+  color: #334f70;
+}
+
+/* Activities section */
+.activities {
+  background-color: #d7e5f2;
+}
+
+.activities h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.activities p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact {
+  background-color: #fffdd0;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #334f70;
+  padding: 10px;
+  color: #fffdd0;
+  text-align: center;
+  font-size: 1rem;
+}
