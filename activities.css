@@ -1,0 +1,56 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* reset to default brouser styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* Header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+/* first section  */
+.pre-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    line-height: 1.5;
+}
+.phylab{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+  height: 460px;
+}
+.phylab img{
+  border-radius: 20px;
+}
+.phylab img:hover{
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

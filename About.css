@@ -1,5 +1,5 @@
 /* style.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /* Reset default browser styles */
 body,
 h1,
@@ -15,20 +15,33 @@ li {
 /* Header */
 header {
   background-color: #334f70;
-  padding: 40px;
+  padding: 20px;
   color: #fff;
   text-align: center;
 }
 
 header h1 {
   font-size: 48px;
-  margin-bottom: 20px;
+
 }
 
-header p {
-  font-size: 24px;
-  margin-bottom: 40px;
-}
+
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
 
 /* Main */
 main {
@@ -64,17 +77,101 @@ section ul li {
 }
 
 /* Footer */
-footer {
+.container{
+	max-width: 1170px;
+	margin-top: -1px;
+  
+ 
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:#d7e5f2;
+    padding: 50px;
+    
+}
+.footer-col{
+   width: 25%;
+  left: 20px;
+ 
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #195185;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #d7e5f2;
+	text-decoration: none;
+	font-weight: 300;
+	color: #5c6298;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #6cac28;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-sub{
   background-color: #334f70;
-  padding: 20px;
-  color: #fff;
+  padding: 10px;
+  color: #fffdd0;
   text-align: center;
+  font-size: 1rem;
 }
 
-footer p {
-  font-size: 16px;
-  margin: 0;
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
 }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
 
 /* Media Query for Responsive Design */
 @media screen and (max-width: 600px) {
