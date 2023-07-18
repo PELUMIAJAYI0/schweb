@@ -75,6 +75,21 @@ section ul li {
   margin-bottom: 5px;
   font-size: 18px;
 }
+/* Anthem section  */
+.schant{
+ font-size: 36px;
+ color: #334f70;
+ text-align: center;
+}
+.maindivforanthem{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 70px;
+  padding-left: 15px;
+}
 
 /* Footer */
 .container{
