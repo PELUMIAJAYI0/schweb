@@ -90,6 +90,23 @@ section ul li {
   gap: 70px;
   padding-left: 15px;
 }
+/* Audio school anthem  */
+.ast{
+  font-size: 36px;
+ color: #334f70;
+ text-align: center;
+}
+.mainaudioschant{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  padding-left: 50px;
+}
+.anttext1{
+  padding-left: 100px;
+  color: #6490c2;
+}
 
 /* Footer */
 .container{

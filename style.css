@@ -179,6 +179,19 @@ section h2 {
   background-color: #fffdd0;
   color: #334f70;
 }
+/* photo-gallery 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
 
 /* Activities section */
 .activities {
