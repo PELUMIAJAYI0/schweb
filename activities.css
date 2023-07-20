@@ -32,6 +32,19 @@
     color: #fff;
     text-decoration: none;
   }
+  main{
+    padding: 30px;
+  }
+  section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #334f70;
+}
+section p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
 /* first section  */
 .pre-first{
     display: flex;

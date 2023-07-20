@@ -28,21 +28,33 @@ header h1 {
     color: #fff;
     text-decoration: none;
   }
+main{
+  padding: 30px;
+  padding-top: 0px;
+}
+section{
+  margin-bottom: 20px;
+}
 section h2{
     color: #334f70;
-    padding: 15px;
+    margin-bottom: 10px;
     font-size: 36px;
 }
 .listul ul{
-    line-height: 1.5;
-    display: list-item;
-    list-style: decimal;
-    font-size: 17px;
+ line-height: 1.5;
+ list-style: auto;
+ margin-left: 25px;
+}
+.listul ul li {
+  font-size: 18px;  
 }
 .punishment p{
-    line-height: 1;
+    line-height: 1.5;
     padding: 5px;
     font-size: 17px;
+}
+.soe{
+  line-height: 1.5;
 }
 .soe p b h4 i {
     font-size: 17px;
@@ -52,6 +64,7 @@ section h2{
     display: list-item;
     list-style: decimal;
     font-size: 17px;
+    margin-left: 25px;
 }
 
 /* .logo-pic{
