@@ -16,13 +16,13 @@ a{
 
 /* Header */
 header {
-  background-color: #f4ee75;
+  background-color: #3068bc;
   padding: 20px;
   color: #fff;
 }
-header:hover{
+/* header:hover{
   background-color: #fff;
-}
+} */
 
 
 nav ul {
@@ -38,24 +38,38 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color:  white;
   text-decoration: none;
   font-size: 18px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
 }
 
 nav ul li a:hover {
-  color: black;
-  text-decoration: underline;
+  color: rgb(203, 206, 228);
+  font-size: 25px;
+  
 }
 
 /* Sections */
 section {
-  padding: 50px;
+  padding: 40px;
 }
 
 section h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  color: #635ee2;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+} 
+section h2:hover {
+   font-size: 25px;
+   color: #c850c0;
 }
 
 /* Welcome section */
@@ -64,21 +78,29 @@ section h2 {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  
 }
-
-.welcome h2 {
-  text-align: center;
+.logo-image {
+  height: 100px;
+}
+.welcome-sub-div {
+  line-height: 1.5;
+  margin-top: 200px;
+}
+.welcome h1 {
+  /* text-align: center; */
   color: #fff;
   font-size: 5rem;
   margin-bottom: 20px;
+  
 }
 
 .welcome h4 {
-  text-align: center;
+  /* text-align: center; */
   color: #fffdd0;
   font-size: 3rem;
   margin-bottom: 30px;
@@ -173,6 +195,10 @@ section h2 {
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 
 .admissions button:hover {
@@ -266,7 +292,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #635ee2;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -285,7 +311,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color:  #7c7606;
+	color:  #635ee2;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
