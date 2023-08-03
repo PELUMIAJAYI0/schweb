@@ -430,3 +430,78 @@ ul{
 }
 
 
+/* Mobile and tablet responsive adjustments */
+@media (max-width: 767px) {
+  /* Adjust header styles */
+  header {
+    padding: 10px;
+  }
+  
+  /* Adjust logo image size */
+  .logo-image {
+    height: 100px;
+  }
+
+  /* Reduce font sizes for navigation links */
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  /* Adjust padding and font sizes for section headings */
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Reduce padding for sections */
+  section {
+    padding: 20px;
+  }
+
+  /* Adjust image size in the about section */
+  .about_image {
+    height: 300px;
+    width: 200px;
+  }
+
+  /* Make footer columns stack on top of each other */
+  .footer-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Smaller mobile devices */
+@media (max-width: 574px) {
+  /* Adjust font sizes for smaller devices */
+  .welcome h1 {
+    font-size: 40px;
+  }
+  .welcome h4 {
+    font-size: 20px;
+  }
+
+  /* Adjust padding for the welcome section */
+  .welcome-sub-div {
+    padding: 5%;
+    margin-top: 50px;
+  }
+
+  /* Adjust font sizes for section headings */
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust font sizes for section paragraphs */
+  section p {
+    font-size: 14px;
+  }
+
+  /* Adjust image size in the about section */
+  .about_image {
+    height: 200px;
+    width: 150px;
+  }
+}
+
