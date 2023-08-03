@@ -113,6 +113,7 @@ section h2:hover {
   margin-top: 20px;
   opacity: 0;
 }
+
 /* slide-left  */
 .slide-left{
   animation: slideleft 1s linear forwards;
@@ -164,21 +165,6 @@ h4.slide-left{
    animation-delay: 7s;
   opacity: 0;
 }
-/* slide-right 
-.slide-right{
-   animation: slideright 1s linear forwards;
-}
-@keyframes slideright{
-  0%{
-    transform: translate(100px);
-    opacity: 0;
-  }
-  100%{
-    transform: translate(0px);
-    opacity: 1 ;
-  }
-} */
-
 /* Home section */
 .home {
   background-color: #d7e5f2;
@@ -229,6 +215,7 @@ h4.slide-left{
 }
 .about_image:hover {
   height: 400px;
+  width: 300px;
     transition-property: all;
   transition-duration: 2s;
   transition-timing-function: ease-out;
@@ -281,7 +268,7 @@ h4.slide-left{
   color: #fff;
   cursor: pointer;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: 2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 }

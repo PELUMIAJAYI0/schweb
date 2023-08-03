@@ -1,12 +1,7 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /* Reset default browser styles */
-body,
-h1,
-h2,
-p,
-ul,
-li {
+*{
   margin: 0;
   padding: 0;
   
@@ -14,15 +9,23 @@ li {
 
 /* Header */
 header {
-  background-color: #334f70;
-  padding: 20px;
+  background-color: #3068bc;
+  padding: 10px;
   color: #fff;
   text-align: center;
+
 }
 
 header h1 {
   font-size: 48px;
-
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+header h1:hover{
+  font-size: 40px;
+  color: #fffdd0;
 }
 
 
@@ -40,25 +43,46 @@ header h1 {
   header nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
   }
+   header nav ul li a:hover{
+    font-size: 25px;
+    color: #fffdd0;
+   }
   
-
-/* Main */
-main {
-  padding: 40px;
-}
-
 /* Section */
 section {
-  margin-bottom: 40px;
+  padding: 30px;
 }
 
 section h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #334f70;
+  color: #635ee2;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
-
+section h2:hover{
+   font-size: 25px;
+   color: #c850c0;
+}
+section h3{
+  font-size: 25px;
+   color: #635ee2;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+section h3:hover{
+   color: #c850c0;
+   font-size: 20px;
+}
 section p {
   line-height: 1.5;
   margin-bottom: 15px;
@@ -75,11 +99,39 @@ section ul li {
   margin-bottom: 5px;
   font-size: 18px;
 }
-/* Anthem section  */
+/* history section  */
+.history{
+  background-color: #fffdd0;
+  border-radius: 25px;
+}
+/* mission section  */
+.mission {
+  background-color: #d7e5f2;
+  border-radius: 25px;
+}
+/* values section  */
+.values{
+  background-color: #fffdd0;
+  border-radius: 25px;
+}
+
+/* school Anthem section  */
+.school-anthem{
+background-color:#d7e5f2;
+border-radius: 25px;
+}
 .schant{
  font-size: 36px;
- color: #334f70;
+ color: #635ee2;
  text-align: center;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.schant:hover{
+   font-size: 25px;
+   color: #c850c0;
 }
 .maindivforanthem{
   display: flex;
@@ -91,10 +143,22 @@ section ul li {
   padding-left: 15px;
 }
 /* Audio school anthem  */
+.audio-school-anthem{
+  background-color: #fffdd0;
+  border-radius: 25px;
+}
 .ast{
   font-size: 36px;
- color: #334f70;
+  color: #635ee2;
  text-align: center;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.ast:hover{
+   font-size: 25px;
+   color: #c850c0;
 }
 .mainaudioschant{
   display: flex;
@@ -105,7 +169,56 @@ section ul li {
 }
 .anttext1{
   padding-left: 100px;
-  color: #6490c2;
+  font-size: 25px;
+   color: #94adf9;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.anttext1:hover{
+  font-size: 20px;
+  color: #c850c0;
+}
+/* school cirriculum section  */
+.school-cirriculum{
+  background-color: #d7e5f2;
+  border-radius: 25px;
+}
+/* school session section  */
+.school-session{
+   background-color: #fffdd0;
+   border-radius: 25px;
+}
+/* school uniform section  */
+.school-uniform{
+  background-color: #d7e5f2;
+  border-radius: 25px;
+}
+/* student apperance section  */
+.student-apperance{
+  background-color: #fffdd0;
+  border-radius: 25px;
+}
+/* school property section  */
+.school-property{
+ background-color: #d7e5f2;
+ border-radius: 25px;
+}
+/* boarding facility section  */
+.boarding-facility{
+  background-color: #fffdd0;
+  border-radius: 25px;
+}
+/* health policy section  */
+.health-policy{
+  background-color: #d7e5f2;
+  border-radius: 25px;
+}
+/* visiting policy section  */
+.visiting-policy{
+  background-color: #fffdd0;
+  border-radius: 25px;
 }
 
 /* Footer */
@@ -125,6 +238,7 @@ ul{
 .footer{
 	background-color:#d7e5f2;
     padding: 50px;
+    border-radius: 10px;
     
 }
 .footer-col{
@@ -145,7 +259,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #635ee2;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -164,7 +278,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #6cac28;
+	color:#635ee2;;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -180,8 +294,8 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+	color: black;
+	background-color: #a6c0de;
 }
 .footer-sub{
   background-color: #334f70;
@@ -189,6 +303,7 @@ ul{
   color: #fffdd0;
   text-align: center;
   font-size: 1rem;
+  border-radius: 10px;
 }
 
 /*responsive*/
@@ -230,5 +345,96 @@ ul{
 
   footer p {
     font-size: 14px;
+  }
+}
+* Media Query for Responsive Design */
+@media screen and (max-width: 1200px) {
+  header h1 {
+    font-size: 36px;
+  }
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+
+  section ul li {
+    font-size: 16px;
+  }
+
+  .maindivforanthem {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mainaudioschant {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  header nav ul li a {
+    font-size: 18px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  .maindivforanthem {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mainaudioschant {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-col {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header nav ul li a {
+    font-size: 16px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  .maindivforanthem {
+    gap: 5px;
+  }
+
+  .mainaudioschant {
+    gap: 5px;
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
