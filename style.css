@@ -113,6 +113,28 @@ section h2:hover {
   margin-top: 20px;
   opacity: 0;
 }
+/* .slider{
+    width: 800px;
+    height: 400px;
+    animation: slider 20s infinite;
+}
+@keyframes slider{
+    25%{
+       
+    }
+    
+    50%{
+         background: url();
+    }
+    
+    75%{
+        background: url();
+    }
+    
+    100%{
+        background: url();
+    }
+} */
 
 /* slide-left  */
 .slide-left{
@@ -502,6 +524,7 @@ ul{
   .about_image {
     height: 200px;
     width: 150px;
+    display: none;
   }
 }
 
